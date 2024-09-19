@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+   
+  }
+  .navbar{
+    box-shadow:2px 5px grey;
+    width:1450px;
+    height:5vh;
+    z-index:1;
+    position:fixed ;
+    top:0;
+    grid-area:navbar;
+    background-color:rgb(248, 243, 243);
+  }
+  nav ul{
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  nav ul li a:hover{
+    color: blue;
+}
+  nav h1{
+    font-size: 40px;
+    color: red;
+    margin-top: -5px;
+    text-shadow: 2px 2px 3px black;
+  }
+  button{
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 7px;
+    height: 30px;
+    font-size: 20px;
+  }
+#sir{
+    background-image: url("99.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  height:400px;
+}
+#sir h1{
+    color: rgb(17, 37, 186);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 100px;
+    font-size: 60px;
+    
+}
+#sir h1:hover{
+  text-shadow: 3px 3px  3px red;
+}
+.dee h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 50px;
+    color: red;
+    text-shadow: 3px 3px 3px black;
+}
+.loki{
+    background-color: rgb(184, 173, 160);
+    height: 500px; 
+    padding: 40px;
+    width: 550px;
+margin-top: 50px;
+    border-radius: 7px;
+}
+.aa h1{
+      color: rgb(213, 7, 7);
+      padding-left: 40px;
+}
+.bb{
+    display: flex;
+    background-color: rgb(111, 141, 141);
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+.bb i{
+    background-color: red;
+    padding-top: 12px;
+    width: 40px;
+    border-radius: 20px;
+    padding-left: 13px;
+}
+.bb h3{
+    padding-left: 10px;
+}
+.ee{
+    display: flex;
+    background-color: rgb(111, 141, 141);
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+.ee i{
+    background-color: red;
+    padding-top: 12px;
+    width: 40px;
+    border-radius: 20px;
+    padding-left: 13px;
+}
+.ee h3{
+    padding-left: 10px;
+}
+.rr{
+    display: flex;
+    background-color: rgb(111, 141, 141);
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+.rr i{
+    background-color: red;
+    padding-top: 12px;
+    width: 40px;
+    border-radius: 20px;
+    padding-left: 13px;
+}
+.rr h3{
+    padding-left: 10px;
+}
+#pilla{
+    display: flex;
+    justify-content: space-around;
+}
+.loki h2{
+    background-color: red;
+    border-radius: 15px;
+    height: 50px;
+    width: 270px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 90px;
+}
+.loki h4{
+    padding-left: 30px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.pp{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.oo label,input{
+    font-size: 17px;
+}
+.mm{
+    padding-top: 19px;
+    
+}
+button{
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 7px;
+    height: 30px;
+    font-size: 20px;
+  }
+  input{
+    height: 30px;
+  }
+  .last{
+    padding-top: 200px;
+
+    margin-top: 40px;
+    justify-content: space-around;
+    color: antiquewhite;
+    background-color: rgb(142, 170, 72);
+  }
+  input{
+  height:33px ;
+  width: 179px;
+  border: none;
+  outline: none;
+  
+  
+  }
+  .last span{
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 8.5px;
+    background-color: darkgoldenrod;
+  }
+  #siri{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:100px ;
+    color: antiquewhite;
+  }
+  h6{
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    display: flex;
+    color: antiquewhite;
+  }
+  .sir i{
+    font-size: 50px;
+  }
+
+  .ll{
+    display: flex;
+    justify-content: space-around;
+  }
